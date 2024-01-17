@@ -1,0 +1,229 @@
+
+:root{
+    --clr-grey-1: hsl(209, 61%, 16%);
+    --clr-grey-10: hsl(210, 36%, 96%);
+    --clr-white: #fff;
+}
+
+body{
+    background-color:var(--clr-grey-10);
+    font-family: 'Inter', sans-serif;
+    color:var(--clr-primary-1);
+}
+
+/* ---------------NavBar----------------- */
+.nav--list{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 1.5rem;
+  }
+  .nav--logo{
+    color:var(--clr-grey-1);
+    font-size: 2.5rem;
+    font-weight: 600; 
+    margin-left:150px; 
+    }
+  
+  .nav--link{
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+    color:var(--clr-grey-1);
+    }
+ 
+    .nav--container{
+        margin:5px 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .nav--menu{
+        display:flex;
+       justify-content: center;
+       align-items: center;
+      }
+    .btn{
+       padding:15px 50px; 
+       font-size:1.5rem;
+       background-color:var(--clr-grey-1);
+       color:var(--clr-grey-10);
+       border-radius:30px;
+       margin:0 20px;
+       font-family:'Inter', serif;
+       cursor:pointer;
+    }
+    .navigation-section{
+        display:flex;
+        align-items:center;
+        
+        
+    }
+    .navigation{
+        display: inline-block;
+        font-weight:500;
+    }
+    .icon{
+        margin:0 1rem;
+        font-size:2rem;
+        cursor: pointer;
+    }
+    h1{
+        margin:5rem 1rem;
+        font-weight:500;
+        font-size: 2.8rem;
+
+    }
+    .filter-section{
+      max-width:50%;
+      margin:0 auto;
+      display:flex; 
+      list-style-type: none;
+      justify-content:space-around;
+      align-items:center;
+    }
+    .filter-section .select{
+      font-weight:600;
+      border-bottom: 4px solid var(--clr-grey-1);
+    }
+    .filter-section li{
+      padding: 10px 20px;
+      font-size:1.5rem;
+      font-weight:500;
+      cursor:pointer;
+    }
+    .flashcard{
+    width:700px;
+    height:400px;
+    margin:50px auto;
+    border-radius: 40px;
+    text-align: center;
+    padding:30px;
+    background-color:var(--clr-grey-1);
+    color:var(--clr-grey-10);
+    cursor: pointer;
+    }
+    .flashcard-icon{
+      font-size:3rem;
+      cursor: pointer;
+    }
+    .icon-box{
+      display:flex;
+      justify-content: space-between;
+
+    }
+    .flashcard p{
+      margin-top:150px;
+      font-size:3rem;
+      
+      
+    }
+    .box{
+      width:700px;
+      margin:20px auto;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+    }
+    .box .icon{
+      font-size:3rem;
+      cursor: pointer;
+    }
+    .box p{
+      font-size:2rem;
+    }
+    .arrow{
+      padding:10px;
+      background-color:var(--clr-grey-1);
+      color:var(--clr-grey-10);
+      border-radius:50%;
+      cursor: pointer;
+    }
+    .create-flashcard-section{
+      height:300px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin:0 30px;
+      padding: 0 30px;
+    }
+    .flex{
+      display:flex;
+      align-items:center;
+    }
+    .create-flashcard-section .logo{
+      height:100px;
+      width:100px;
+      border-radius: 50%;
+      margin:0 20px 0 0;
+      border:2px solid var(--clr-grey-1);
+    }
+    .create-flashcard-section span{
+      font-size:3rem;
+      display:block;
+    }
+    .create-flashcard-subsection{
+      display:flex;
+      align-items:center;
+      justify-content:space-around;
+      cursor: pointer;
+    }
+    .create-flashcard-subsection .icon{
+        font-size:4rem;
+        padding:10px;
+        border-radius: 50%;
+        background-color:var(--clr-grey-1);
+        color:var(--clr-grey-10);
+    }
+    .create-flashcard-subsection p{
+        font-size:2rem;
+        font-weight:600;
+    }
+    .faq-container{
+      width:50%;
+      margin:0 30px;
+      height:600px;
+      
+    }
+    .faq-container h2{
+      font-size:4rem;
+    }
+    .info{
+      display:flex;
+      flex-direction:column;
+    }
+    .question{
+      display:flex;
+      justify-content:space-between;
+      border:1px solid var(--clr-grey-1);
+      padding:0 10px;
+      border-radius:10px;
+      margin: 10px 0;
+      cursor:pointer;
+
+    }
+    .question h4{
+      font-size:1.5rem;
+      font-weight:500;
+    }
+    .icon-btn{
+      background: none;
+      border:none;
+      cursor:pointer;
+    }
+    .faq-icon{
+      
+      padding:10px;
+      border-radius:50%;
+      font-size:2rem;
+      background-color:var(--clr-grey-1);
+      color:var(--clr-grey-10);
+    }
+    .faq-ans{
+      border-radius:10px;
+      font-size:1.5rem;
+      border: 2px solid var(--clr-grey-1);
+      padding:10px;
+      
+    }
